@@ -2,15 +2,15 @@
 # This was forked from 'ASCII Art Splash Screen' project
 # The original owner was 'DanCRichards' 
  
-changes been done
- 1.add metasploit banners 
- 2.'ASCII Art Splash Screen' used to get the banners form the github page, now its downloaded locally and can be accessed without internet connection.
- 3. when running install.py , it directely appends the ascii.py script which print the banners in bash profile or bashrc.
+\nchanges been done
+\n 1.add metasploit banners 
+\n 2.'ASCII Art Splash Screen' used to get the banners form the github page, now its downloaded locally and can be accessed without internet connection.
+\n 3. when running install.py , it directely appends the ascii.py script which print the banners in bash profile or bashrc.
 
-
------------------ how to use -------------------
- run python3 install.py 
- open new terminal and witness the banners
+\n
+\n----------------- how to use -------------------
+\n run python3 install.py 
+\n open new terminal and witness the banners
 
 
 
