@@ -10,6 +10,7 @@ changes been done
 ----------------- how to use ------------------- 
 
 1.git clone https://github.com/abdullahalshubaili/ASCII-Art-Splash-Screen.git
+
 2.run python3 install.py 
 
 open new terminal and witness the banners
