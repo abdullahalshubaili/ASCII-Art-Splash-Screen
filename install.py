@@ -1,4 +1,5 @@
 import random
+import os.path
 import os
 import subprocess
 
@@ -14,6 +15,14 @@ bash_profile = bash_locator+"/.bash_profile"
 # convert bytes to string with decode
 place = 'python3 ' + folder.decode('utf-8') + '/ascii.py'
 
+repath = "~/.banners_path"
+
+fpath = os.path.expanduser(repath)
+
+#subprocess.check_output('touch '+ fpath)
+with open(fpath, "w") as mypath:
+    mypath.write(folder.decode('utf-8'))
+    mypath.close()
 try:
     with open(bashrc, "a+") as myfile:
     # Do something with the file
@@ -31,4 +40,3 @@ except:
         print("bashrc or bash_profile not accessible\nplease insert your bash profile path manually in the script")
 
 print('close and open a terminal to witness banners')
-
