@@ -5,7 +5,7 @@
 changes been done
  1. Add metasploit banners 
  2. 'ASCII Art Splash Screen' used to get the banners form the github page, now its downloaded locally and can be accessed without internet connection.
- 3. When running install.py , it directely appends the ascii.py script which print the banners in bash profile or bashrc.
+ 3. When running install.py , it directely appends the ascii.py script which print the banners in bash profile or bashrc and create hidden file called banners_path to retrive of the project dir from local machine.
  
 ----------------- how to use ------------------- 
 
