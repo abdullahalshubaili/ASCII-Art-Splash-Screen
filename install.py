@@ -33,15 +33,14 @@ try:
     f = open(bashrc)
     c = 1
 except IOError:
-    c = 3
+    cc = 3
 try:
     f = open(bash_profile)
     c = 4
 except IOError:
-    c = 8
+    cc = 8
 finally:
     f.close()
-print(c)
 
 def does_it_exists_in_bashrc(c):
     if c == 1:
@@ -68,4 +67,4 @@ if does_it_exists_in_bash_profile(c) == 4:
     b = open(bash_profile, "a+")
     b.write(place)
     b.close()
-print(does_it_exists_in_bash_profile(c))
+print('open a new terminl to witness banners')
